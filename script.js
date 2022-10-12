@@ -112,32 +112,7 @@ alert('$'+dolar+' é equivalente a '+'R$'+conversao+' tendo '+cotacaoAtual+' com
 
 //--------------------------------------------------------------------------
 
-//exercício 08
-//coleta o tipo selecionado pelo usuario
-const tipo = parseFloat(prompt('Digite o tipo: (numero de 1 a 4'));
-//coleta a area a ser pulverizada
-const areaASerPulverizada = parseFloat(prompt('Digite a area: '));
 
-if(tipo == 1){
-    tipo = 50 / areaASerPulverizada;
-}
-else if(tipo == 2){
-    tipo = 100 / areaASerPulverizada;
-}
-else if(tipo == 3){
-    tipo = 150 / areaASerPulverizada;
-}
-else if (tipo == 4){
-    tipo = 250 / areaASerPulverizada;
-}
-
-//se a area for maior que 1000, dar o desconto de 5%
-if(areaASerPulverizada > 1000){
-    tipo = (tipo * 5) / 100;
-}
-else if(areaASerPulverizada > 750){
-
-}
 
 //--------------------------------------------------------------------------
 
